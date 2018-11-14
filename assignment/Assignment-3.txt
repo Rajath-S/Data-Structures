@@ -1,0 +1,39 @@
+Data Structures Assignment #3 
+----------------------------------------------------------------- 
+
+1. Give an example of a (a) Proper Binary Tree (b) Binary Search Tree (3) Heap 
+
+2. Why is Priority Queue implemented using heap performs better than that of array or list?.
+ 
+3. Suppose you have a binary tree whose data fields are single characters. When the data fields of the nodes are output in inorder, the output is ABCDEFGHIJ, and when they are output in level order, the output is BAIDJCFEHG. Draw the binary tree showing the data in each node and the pointers between nodes. Show the steps used to arrive at the result. 
+
+4. Construct  a min-heap with the following data elements : { 32, 78, 1, 22, 46, 98, 39, 11, 25, 61, 56, 63, 2, 15, 19}. Show the contents of either the heap arrray or the heap tree at each step.
+
+ 5. Create a BST by inserting the following elements : 
+{ 11, 56, 27, 5, 30, 21, 39, 71, 49, 25, 87, 40, 77, 99, 15, 69, 75, 91, 95, 76}. Delete 30, 77, 75, 21, 76
+
+6.Given the keys {329, 410, 333, 970, 280, 159,865, 593, 621, 564}and the mid-square hash function, show the contents of the hash table of size 10 which resolves collision using:
+(a) Linear Probing
+(b) Chaining
+(c) Double Hashing with second hash function x mod 10.
+--------------------------------------------------------------------------
+7. Create a priority Queue that stores jobids having three priorities : Low, Medium and High. You can implement this as an array of queues (using standard  queue operations of enqueue and dequeue). Write algorithm or  code to implement the following methods:
+ 
+	Int RemoveMin(); // return a jobid with the highest priority
+	// jobs with same priority are returned as FIFO
+	Void AddJob(int jobid, int priority); // priority (1,low), (2,medium) and (3, high)
+	int WaitCount(int jobid); // return number of jobs ahead of jobid in the priority queue
+
+8. Write a method called flip(BTNode root) that does the following:
+// Precondition: Root is the root reference of a binary tree.
+// Postcondition: If the root is non-null, then the tree below this node is
+// now the mirror image of its original value.
+// Example original tree: Example new tree:
+//	  1	  1
+// 	 /  \	  /  \
+// 	2    3 	3     2
+// 	/ \	      / \
+// 	4   5	     5   4
+
+
+  
