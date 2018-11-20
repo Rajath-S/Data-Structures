@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1542725665 source:d:\rajath\ds all programs\data-structures\tries\tries\function.c
+	"trie.h"
+	<stdio.h>
+	<stdlib.h>
+
+1542724151 d:\rajath\ds all programs\data-structures\tries\tries\trie.h
+
+1542727155 source:d:\rajath\ds all programs\data-structures\tries\tries\main.c
+	<stdio.h>
+	<stdlib.h>
+	"trie.h"
+
